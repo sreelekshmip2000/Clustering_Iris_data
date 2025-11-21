@@ -20,13 +20,13 @@ This project applies unsupervised learning techniques to cluster the Iris datase
 - Scatter plot visualization of clusters
 
 
-**1. Loading & Preprocessing**
+#1. Loading & Preprocessing
 
 The Iris dataset was loaded using load_iris() from scikit-learn.
 Since clustering is unsupervised, the species column was removed.
 StandardScaler was applied to normalize features because clustering algorithms are sensitive to different feature scales.
 
-**2. KMeans Clustering**
+#2. KMeans Clustering
 
 How it Works:
 
@@ -44,7 +44,7 @@ Features are numeric and continuous
 
 KMeans works well with compact clusters
 
-**3. Hierarchical Clustering**
+#3. Hierarchical Clustering
 
 How it Works:
 
@@ -64,7 +64,7 @@ Good for understanding grouping tendencies
 
 Dendrogram shows natural cluster boundaries
 
-**4. Visualization**
+#4. Visualization
 
 KMeans clusters were plotted using a scatter plot.
 
